@@ -1,3 +1,162 @@
 body {
-  background-color: red;
+  background-color: blue;
+  background-color: hsl(229, 57%, 11%);
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.875rem;
+}
+
+/*Classes start here*/
+.amount {
+  left: 0.9375rem;
+  padding: 0.3125rem;
+  position: relative;
+  top: 0.3125rem;
+}
+
+.dataLeftBox {
+  background-color: white;
+  border-radius: 0.625rem;
+  bottom: 12.5rem;
+  height: 3.125rem;
+  left: 53.125rem;
+  position: relative;
+  width: 9.375rem;
+}
+
+.document {
+  left: 0.625rem;
+  position: absolute;
+  top: 0.5rem;
+}
+
+.finalValue {
+  display: inline-block;
+  left: 21.25rem;
+  position: relative;
+}
+
+.folder {
+  left: 0.5rem;
+  position: absolute;
+  top: 0.625rem;
+}
+
+.imageBox {
+  background-color: blue;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 0.625rem;
+  height: 2.5rem;
+  left: 4.375rem;
+  margin: 0.9375rem;
+  position: relative;
+  top: 2.1875rem;
+  width: 2.5rem;
+}
+
+.initialValue {
+  display: inline-block;
+  left: 1.5625rem;
+  position: relative;
+}
+
+.innerBar {
+  background-color: pink;
+  background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 0.3125rem;
+  height: 0.625rem;
+  width: 18.75rem;
+}
+
+.largerRectangle {
+  background-color: blue;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 0.3125rem;
+  color: blue;
+  color: hsl(243, 100%, 93%);
+  height: 7.5rem;
+  left: 36.25rem;
+  position: relative;
+  top: 14.375rem;
+  width: 28.125rem;
+}
+
+.logo {
+  position: relative;
+  right: 1.875rem;
+  top: 10rem;
+  transform: rotate(270deg);
+}
+
+.number {
+  font-size: 1.5625rem;
+}
+
+.outterBar {
+  background-color: blue;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 0.3125rem;
+  height: 0.625rem;
+  margin: 1.25rem auto;
+  position: relative;
+  top: 1.25rem;
+  width: 25rem;
+}
+
+.rotatedImage {
+  transform: rotate(270deg);
+}
+
+.smallerRoundedRectangle {
+  background-color: blue;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 0.625rem;
+  border-top-left-radius: 3.125rem;
+  height: 16.875rem;
+  left: 21.25rem;
+  position: relative;
+  top: 1.25rem;
+  transform: rotate(90deg);
+  width: 9.375rem;
+}
+
+.text {
+  left: 1.5625rem;
+  position: relative;
+  top: 1.25rem;
+}
+
+.upload {
+  left: 0.5rem;
+  position: absolute;
+  top: 0.75rem;
+}
+
+.whiteCircle {
+  background-color: white;
+  border-radius: 100%;
+  height: 0.5rem;
+  left: 15.6875rem;
+  position: relative;
+  top: 0.0625rem;
+  width: 0.5rem;
+}
+
+.whiteTriangle {
+  border-top: 1.25rem solid white;
+  border-left: 1.25rem solid transparent;
+  bottom: 0.75rem;
+  height: 0;
+  left: 8.125rem;
+  position: relative;
+  width: 0;
+}
+
+/*Id starts here*/
+#bg-image {
+  bottom: 0;
+  height: 18.75rem;
+  left: 0;
+  position: absolute;
+  width: 80rem;
+  z-index: -1;
 }
